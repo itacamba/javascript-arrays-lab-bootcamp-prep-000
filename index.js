@@ -34,3 +34,7 @@ function removeLastKitten(){
   var smallerFamily = kittens.slice(0,-1);
   return smallerFamily;
 }
+function removeFirstKitten(){
+  var byeFirst = kittens.slice(1);
+  return byeFirst;
+}
