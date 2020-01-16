@@ -29,3 +29,8 @@ function prependKitten(name){
   var allKittens = [name, ...kittens];
   return allKittens;
 }
+
+function removeLastKitten(){
+  var smallerFamily = kittens.slice(-1);
+  return smallerFamily;
+}
