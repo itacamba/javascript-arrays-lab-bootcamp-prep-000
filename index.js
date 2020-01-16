@@ -25,4 +25,3 @@ function appendKitten(name){
   var allKittens = [...kittens,name];
   return allKittens;
 }
-
